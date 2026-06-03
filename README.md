@@ -16,4 +16,4 @@ Progress
 
 - Day 1: Variables and Print Statements
 
-More updates coming soon.
+More updates coming soon..
