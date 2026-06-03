@@ -1,4 +1,4 @@
-# python-practice# Python Practice
+ Python Practice
 
 Welcome to my Python learning journey.
 
