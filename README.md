@@ -14,6 +14,8 @@ Goals
 
 Progress
 
-- Day 1: Variables and Print Statements
 
 More updates coming soon..
+- 1️⃣ Day 1: Variables and Print Statements✅
+
+- 2️⃣ Day 2: Data Types and User Input ✅
