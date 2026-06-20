@@ -20,5 +20,8 @@ More updates coming soon..
 
 - 2️⃣ Day 2: Data Types and User Input ✅
 
-- 3️⃣ Day 3: Operators and Calculator ✅
+- 3️⃣ Day 3: Arithmetic Operators and 
+ 
+             Calculator ✅
+
 - 4️⃣ Day 4: Comparison operators ✅
