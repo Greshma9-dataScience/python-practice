@@ -25,3 +25,6 @@ More updates coming soon..
              Calculator ✅
 
 - 4️⃣ Day 4: Comparison operators ✅
+
+- 5️⃣ Day 5: Learned Python Logical
+      Operators (and, or, not)
