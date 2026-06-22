@@ -1,3 +1,5 @@
+
+
 Python Practice
 
 Welcome to my Python learning journey.
@@ -28,3 +30,5 @@ More updates coming soon..
 
 - 5️⃣ Day 5: Learned Python Logical
       Operators (and, or, not)
+
+- 6️⃣ Day 6 - If, Else Conditions
