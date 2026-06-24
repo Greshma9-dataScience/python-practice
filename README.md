@@ -32,3 +32,7 @@ More updates coming soon..
       Operators (and, or, not)
 
 - 6️⃣ Day 6 - If, Else Conditions
+
+- 7️⃣ Day 7 - If, Elif, Else
+
+      Statements
