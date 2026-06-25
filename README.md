@@ -36,3 +36,4 @@ More updates coming soon..
 - 7️⃣ Day 7 - If, Elif, Else
 
       Statements
+- 8️⃣  Day 8 - For Loops
