@@ -37,3 +37,5 @@ More updates coming soon..
 
       Statements
 - 8️⃣  Day 8 - For Loops
+
+- 9️⃣  Day 9 - While Loops
