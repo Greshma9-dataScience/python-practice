@@ -39,3 +39,5 @@ More updates coming soon..
 - 8️⃣  Day 8 - For Loops
 
 - 9️⃣  Day 9 - While Loops
+- 🔟. Day 10 - Break and Continue
+      Statements
