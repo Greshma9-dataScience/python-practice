@@ -41,3 +41,5 @@ More updates coming soon..
 - 9️⃣  Day 9 - While Loops
 - 🔟. Day 10 - Break and Continue
       Statements
+
+-1️⃣1️⃣ Day11- Functions
