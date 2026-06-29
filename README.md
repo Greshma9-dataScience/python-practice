@@ -1,5 +1,6 @@
 
 
+
 Python Practice
 
 Welcome to my Python learning journey.
@@ -43,3 +44,5 @@ More updates coming soon..
       Statements
 
 -1️⃣1️⃣ Day11- Functions
+
+-1️⃣2️⃣ Day12- Function Arguments
