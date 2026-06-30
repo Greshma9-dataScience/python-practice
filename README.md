@@ -46,3 +46,5 @@ More updates coming soon..
 -1️⃣1️⃣ Day11- Functions
 
 -1️⃣2️⃣ Day12- Function Arguments
+
+-1️⃣3️⃣ Day13- Lamba functions
