@@ -1,0 +1,95 @@
+
+1️⃣ Creating a List
+
+Python
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits)
+Output
+Plain text
+['Apple', 'Banana', 'Mango']
+
+2️⃣ Accessing List Elements
+Python
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[0])
+print(fruits[2])
+Output
+Plain text
+Apple
+Mango
+
+3️⃣ Adding and Removing Elements
+Python
+
+fruits = ["Apple", "Banana"]
+
+fruits.append("Orange")
+fruits.remove("Banana")
+
+print(fruits)
+Output
+Plain text
+['Apple', 'Orange']
+
+4️⃣ Loop Through a List
+Python
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
+Output
+Plain text
+Apple
+Banana
+Mango
+
+🌍 Real-World Example
+Python
+
+marks = [85, 92, 78, 90]
+
+print("Highest Marks:", max(marks))
+print("Lowest Marks:", min(marks))
+print("Total Marks:", sum(marks))
+Output
+Plain text
+Highest Marks: 92
+Lowest Marks: 78
+Total Marks: 345
+
+
+🧠 Key Learning
+
+Lists store multiple values in a single variable.
+Lists are ordered and mutable (can be changed).
+Use indexing (list[0]) to access elements.
+
+Common methods:
+
+append() → Add an item
+remove() → Remove an item
+len() → Count items
+
+🚀 Mini Practice
+Find List Length
+Python
+
+colors = ["Red", "Blue", "Green"]
+
+print(len(colors))
+Print Numbers Greater Than 10
+Python
+numbers = [5, 12, 8, 20, 15]
+
+for num in numbers:
+    if num > 10:
+        print(num)
+
+
+# 🐍 Python Day 15 - Lists
+
+🔥 Tip: Lists are one of the most frequently used data structures in Python. They are especially important in data analysis, where you'll use lists to store, process, and manipulate collections of data before moving on to libraries like NumPy and Pandas.', 'Banana', 'Mango']
