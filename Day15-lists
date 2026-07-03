@@ -1,0 +1,126 @@
+
+
+📚 Concepts Covered
+
+Creating Lists
+
+Accessing Elements
+
+List Indexing
+
+Adding Elements
+
+Removing Elements
+
+List Length
+
+Looping Through a List
+
+
+💻 Practice Code
+
+1️⃣ Creating a List
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits)
+
+Output
+
+['Apple', 'Banana', 'Mango']
+
+
+---
+
+2️⃣ Accessing List Elements
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[0])
+print(fruits[2])
+
+Output
+
+Apple
+Mango
+
+
+---
+
+3️⃣ Adding and Removing Elements
+
+fruits = ["Apple", "Banana"]
+
+fruits.append("Orange")
+fruits.remove("Banana")
+
+print(fruits)
+
+Output
+
+['Apple', 'Orange']
+
+
+---
+
+4️⃣ Loop Through a List
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
+
+Output
+
+Apple
+Banana
+Mango
+
+🌍 Real-World Example
+
+marks = [85, 92, 78, 90]
+
+print("Highest Marks:", max(marks))
+print("Lowest Marks:", min(marks))
+print("Total Marks:", sum(marks))
+
+Output
+
+Highest Marks: 92
+Lowest Marks: 78
+Total Marks: 345
+
+🧠 Key Learning
+
+Lists store multiple values in a single variable.
+
+Lists are ordered and mutable (can be changed).
+
+Use indexing (list[0]) to access elements.
+
+Common methods:
+
+append() → Add an item
+
+remove() → Remove an item
+
+len() → Count items
+
+
+
+🚀 Mini Practice
+
+Find List Length
+
+colors = ["Red", "Blue", "Green"]
+
+print(len(colors))
+
+Print Numbers Greater Than 10
+
+numbers = [5, 12, 8, 20, 15]
+
+for num in numbers:
+    if num > 10:
+        print(num)
+
