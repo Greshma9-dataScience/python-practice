@@ -52,3 +52,5 @@ More updates coming soon..
 -1️⃣4️⃣ Day14- Recursion function 
 
 -1️⃣5️⃣ Day15- List
+
+-1️⃣6️⃣ Day16- Lists function 
