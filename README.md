@@ -54,3 +54,5 @@ More updates coming soon..
 -1️⃣5️⃣ Day15- List
 
 -1️⃣6️⃣ Day16- Lists function 
+
+-1️⃣7️⃣ Day17-List methods
