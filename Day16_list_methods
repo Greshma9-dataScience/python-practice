@@ -1,0 +1,180 @@
+
+
+📚 Concepts Covered
+
+append()
+
+insert()
+
+extend()
+
+remove()
+
+pop()
+
+sort()
+
+reverse()
+
+count()
+
+index()
+
+clear()
+
+
+💻 Practice Code
+
+1️⃣ append() – Add an Element
+
+fruits = ["Apple", "Banana"]
+
+fruits.append("Mango")
+print(fruits)
+
+Output
+
+['Apple', 'Banana', 'Mango']
+
+
+---
+
+2️⃣ insert() – Insert at a Specific Position
+
+fruits = ["Apple", "Banana"]
+
+fruits.insert(1, "Orange")
+print(fruits)
+
+Output
+
+['Apple', 'Orange', 'Banana']
+
+
+---
+
+3️⃣ extend() – Add Multiple Elements
+
+fruits = ["Apple"]
+
+fruits.extend(["Banana", "Mango"])
+print(fruits)
+
+Output
+
+['Apple', 'Banana', 'Mango']
+
+
+---
+
+4️⃣ remove() and pop()
+
+numbers = [10, 20, 30, 40]
+
+numbers.remove(20)
+numbers.pop()
+
+print(numbers)
+
+Output
+
+[10, 30]
+
+
+---
+
+5️⃣ sort() and reverse()
+
+numbers = [4, 1, 5, 2]
+
+numbers.sort()
+print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+Output
+
+[1, 2, 4, 5]
+[5, 4, 2, 1]
+
+
+---
+
+6️⃣ count() and index()
+
+numbers = [10, 20, 10, 30]
+
+print(numbers.count(10))
+print(numbers.index(30))
+
+Output
+
+2
+3
+
+
+---
+
+7️⃣ clear()
+
+fruits = ["Apple", "Banana"]
+
+fruits.clear()
+print(fruits)
+
+Output
+
+[]
+
+🌍 Real-World Example
+
+students = ["Veshma", "Rahul"]
+
+students.append("Priya")
+students.sort()
+
+print(students)
+
+Output
+
+['Priya', 'Rahul', 'Veshma']
+
+🧠 Key Learning
+
+append() → Add one item
+
+insert() → Insert at a specific index
+
+extend() → Add multiple items
+
+remove() → Remove by value
+
+pop() → Remove by index (default: last item)
+
+sort() → Sort in ascending order
+
+reverse() → Reverse the list
+
+count() → Count occurrences
+
+index() → Find the position of an item
+
+clear() → Remove all items
+
+
+🚀 Mini Practice
+
+Sort Student Marks
+
+marks = [85, 72, 91, 68]
+
+marks.sort()
+print(marks)
+
+Reverse a List
+
+colors = ["Red", "Blue", "Green"]
+
+colors.reverse()
+print(colors)
