@@ -56,3 +56,5 @@ More updates coming soon..
 -1️⃣6️⃣ Day16- Lists function 
 
 -1️⃣7️⃣ Day17-List methods
+
+-1️⃣8️⃣ Day18-tuple,mthods
