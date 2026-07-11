@@ -1,0 +1,120 @@
+student = {
+"name" : "Greshma",
+"age":21,
+"course":"python"
+}
+
+print(student["name"])
+print(student["course"])
+
+#output
+Greshma
+Python
+
+2️⃣ Accessing Dictionary Values
+
+student = {
+    "name": "Veshma",
+    "age": 21,
+    "course": "Python"
+}
+
+print(student["name"])
+print(student["course"])
+
+#Output
+Veshma
+Python
+
+3️⃣ Adding & Updating Items
+student = {
+    "name": "Veshma",
+    "age": 21
+}
+
+student["course"] = "Data Analytics"
+student["age"] = 22
+
+print(student)
+
+#Output
+{'name': 'Veshma', 'age': 22, 'course': 'Data Analytics'}
+
+4️⃣ Removing Items
+student = {
+    "name": "Veshma",
+    "age": 22,
+    "course": "Data Analytics"
+}
+
+student.pop("age")
+
+print(student)
+
+#Output
+{'name': 'Veshma', 'course': 'Data Analytics'}
+
+
+5️⃣ Loop Through a Dictionary
+student = {
+    "name": "Veshma",
+    "age": 22,
+    "course": "Data Analytics"
+}
+
+for key, value in student.items():
+    print(key, ":", value)
+Output
+name : Veshma
+age : 22
+course : Data Analytics
+
+#🌍 Real-World Example
+
+employee = {
+    "id": 101,
+    "name": "Rahul",
+    "department": "IT",
+    "salary": 50000
+}
+
+print("Employee Name:", employee["name"])
+print("Salary:", employee["salary"])
+Output
+Employee Name: Rahul
+Salary: 50000
+🧠 Key Learning
+Dictionaries store data as key-value pairs.
+Keys must be unique.
+Dictionaries are mutable, so values can be added, updated, or removed.
+Common methods:
+keys() → Returns all keys
+values() → Returns all values
+items() → Returns key-value pairs
+get() → Safely gets a value
+pop() → Removes a key-value pair
+
+
+#🚀 Mini Practice
+#Print All Keys
+
+car = {
+    "brand": "Toyota",
+    "model": "Innova",
+    "year": 2024
+}
+
+for key in car.keys():
+    print(key)
+
+#Check if a Key Exists
+
+student = {
+    "name": "Veshma",
+    "course": "Python"
+}
+
+if "name" in student:
+    print("Key Found")
+
+
