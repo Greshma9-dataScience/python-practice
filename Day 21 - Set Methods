@@ -1,0 +1,181 @@
+
+ Topic
+
+Set Methods in Python
+
+
+📚 Concepts Covered
+
+add()
+
+update()
+
+remove()
+
+discard()
+
+pop()
+
+clear()
+
+union()
+
+intersection()
+
+difference()
+
+
+💻 Practice Code
+
+1️⃣ add() – Add an Element
+
+fruits = {"Apple", "Banana"}
+
+fruits.add("Mango")
+print(fruits)
+
+Output
+
+{'Apple', 'Banana', 'Mango'}
+
+
+---
+
+2️⃣ update() – Add Multiple Elements
+
+fruits = {"Apple", "Banana"}
+
+fruits.update(["Orange", "Grapes"])
+print(fruits)
+
+Output
+
+{'Apple', 'Banana', 'Orange', 'Grapes'}
+
+
+---
+
+3️⃣ remove() and discard()
+
+fruits = {"Apple", "Banana", "Mango"}
+
+fruits.remove("Banana")
+fruits.discard("Orange")  # No error if item doesn't exist
+
+print(fruits)
+
+Output
+
+{'Apple', 'Mango'}
+
+
+---
+
+4️⃣ pop() and clear()
+
+colors = {"Red", "Blue", "Green"}
+
+colors.pop()
+print(colors)
+
+colors.clear()
+print(colors)
+
+Output
+
+{'Blue', 'Green'}
+set()
+
+
+---
+
+5️⃣ union()
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+print(set1.union(set2))
+
+Output
+
+{1, 2, 3, 4, 5}
+
+
+---
+
+6️⃣ intersection()
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+
+print(set1.intersection(set2))
+
+Output
+
+{2, 3}
+
+
+---
+
+7️⃣ difference()
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+
+print(set1.difference(set2))
+
+Output
+
+{1}
+
+🌍 Real-World Example
+
+python_students = {"Veshma", "Rahul", "Priya"}
+sql_students = {"Priya", "Rahul", "Kiran"}
+
+common_students = python_students.intersection(sql_students)
+
+print(common_students)
+
+Output
+
+{'Rahul', 'Priya'}
+
+ Key Learning
+
+add() → Adds one element.
+
+update() → Adds multiple elements.
+
+remove() → Removes an element (raises an error if not found).
+
+discard() → Removes an element without raising an error.
+
+pop() → Removes a random element.
+
+clear() → Removes all elements.
+
+union() → Combines two sets.
+
+intersection() → Finds common elements.
+
+difference() → Finds elements present only in the first set.
+
+
+🚀 Mini Practice
+
+Remove Duplicate Values
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+unique_numbers = set(numbers)
+
+print(unique_numbers)
+
+Find Common Subjects
+
+student1 = {"Python", "SQL", "Excel"}
+student2 = {"SQL", "Power BI", "Python"}
+
+print(student1.intersection(student2))
+
