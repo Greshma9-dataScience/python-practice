@@ -62,3 +62,7 @@ More updates coming soon..
 -1️⃣9️⃣ Day19- dictionary methods
 
 -2️⃣0️⃣ Day20- sets
+
+-2️⃣1️⃣ Day21 - set_methods
+
+-2️⃣2️⃣ Day22 - string_methods
