@@ -1,0 +1,138 @@
+.
+
+📚 Concepts Covered
+
+upper()
+
+lower()
+
+strip()
+
+replace()
+
+split()
+
+join()
+
+find()
+
+count()
+
+startswith()
+
+endswith()
+
+
+💻 Practice Code
+
+1️⃣ upper() and lower()
+
+text = "Python Programming"
+
+print(text.upper())
+print(text.lower())
+
+Output
+
+PYTHON PROGRAMMING
+python programming
+
+
+---
+
+2️⃣ strip() and replace()
+
+text = "  Hello Python  "
+
+print(text.strip())
+print(text.replace("Python", "World"))
+
+Output
+
+Hello Python
+  Hello World
+
+
+---
+
+3️⃣ split() and join()
+
+text = "Python,SQL,Excel"
+
+items = text.split(",")
+
+print(items)
+print(" | ".join(items))
+
+Output
+
+['Python', 'SQL', 'Excel']
+Python | SQL | Excel
+
+
+---
+
+4️⃣ find() and count()
+
+text = "Python Programming"
+
+print(text.find("Program"))
+print(text.count("m"))
+
+Output
+
+7
+2
+
+
+---
+
+5️⃣ startswith() and endswith()
+
+filename = "report.pdf"
+
+print(filename.startswith("report"))
+print(filename.endswith(".pdf"))
+
+Output
+
+True
+True
+
+🌍 Real-World Example
+
+email = "greshma@gmail.com"
+
+if email.endswith("@gmail.com"):
+    print("Valid Gmail Address")
+else:
+    print("Invalid Email")
+
+Output
+
+Valid Gmail Address
+
+🧠 Key Learning
+
+upper() → Converts text to uppercase.
+
+lower() → Converts text to lowercase.
+
+strip() → Removes extra spaces.
+
+replace() → Replaces text.
+
+split() → Converts a string into a list.
+
+join() → Joins list elements into a string.
+
+find() → Returns the position of a substring.
+
+count() → Counts occurrences of a substring.
+
+startswith() → Checks the beginning of a string.
+
+endswith() → Checks the end of a string.
+
+
+ 
