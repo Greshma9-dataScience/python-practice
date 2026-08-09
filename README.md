@@ -68,3 +68,9 @@ More updates coming soon..
 -2️⃣2️⃣ Day22 - string_methods
 
 -2️⃣3️⃣ Day23 - file_handling
+
+-2️⃣4️⃣ Day24 - exception_handling
+
+-2️⃣5️⃣ Day25 - oops_basics
+
+-2️⃣6️⃣ Day26 - 
