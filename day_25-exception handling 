@@ -1,0 +1,121 @@
+
+helps to handle runtime errors using try, except, else, and finally.
+
+📚 Concepts Covered
+
+try
+
+except
+
+else
+
+finally
+
+Handling Multiple Exceptions
+
+
+💻 Practice Code
+
+1️⃣ Basic try and except
+
+try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Please enter a valid number!")
+
+Output
+
+Enter a number: 0
+Cannot divide by zero!
+
+
+---
+
+2️⃣ Using else
+
+try:
+    num = int(input("Enter a number: "))
+    print(20 / num)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+else:
+    print("Operation completed successfully!")
+
+Output
+
+Enter a number: 5
+4.0
+Operation completed successfully!
+
+
+---
+
+3️⃣ Using finally
+
+try:
+    file = open("sample.txt", "r")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found!")
+finally:
+    print("Execution completed.")
+
+Output
+
+File not found!
+Execution completed.
+
+🌍 Real-World Example
+
+try:
+    age = int(input("Enter your age: "))
+
+    if age < 0:
+        raise ValueError("Age cannot be negative!")
+
+    print("Your age is:", age)
+
+except ValueError as e:
+    print(e)
+
+Output
+
+Enter your age: -5
+Age cannot be negative!
+
+
+🧠 Key Learning
+
+try → Contains code that may raise an exception.
+
+except → Handles the exception.
+
+else → Executes if no exception occurs.
+
+finally → Always executes, whether an exception occurs or not.
+
+Exception handling makes programs more robust and user-friendly.
+
+
+🚀 Mini Practice
+
+Handle Division
+
+try:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    print(a / b)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+
+Handle Invalid Input
+
+try:
+    number = int(input("Enter an integer: "))
+    print("You entered:", number)
+except ValueError:
+    print("Invalid input! Please enter an integer.")
+
